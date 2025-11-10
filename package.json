@@ -1,0 +1,12 @@
+{
+  "name": "jellyfish-extension",
+  "version": "1.0.0",
+  "description": "Browser extension that overlays Stockfish recommendations on chess.com",
+  "scripts": {
+    "build": "web-ext build --source-dir=extension --artifacts-dir=dist",
+    "lint": "web-ext lint --source-dir=extension"
+  },
+  "devDependencies": {
+    "web-ext": "^7.11.0"
+  }
+}

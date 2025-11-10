@@ -1,0 +1,4 @@
+node_modules/
+dist/
+stockfish-11.0.0.tgz
+extension/engine/stockfish.wasm

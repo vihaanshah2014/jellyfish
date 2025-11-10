@@ -1,0 +1,34 @@
+.best-move-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 20;
+}
+
+.best-move-overlay__square {
+  position: absolute;
+  box-sizing: border-box;
+  width: calc(100% / 8);
+  height: calc(100% / 8);
+  border-radius: 8%;
+  opacity: 0.8;
+  transition: all 120ms ease-in-out;
+}
+
+.best-move-overlay__square--from {
+  border: 4px solid rgba(255, 215, 0, 0.9);
+  background: rgba(255, 215, 0, 0.25);
+}
+
+.best-move-overlay__square--to {
+  border: 4px solid rgba(30, 144, 255, 0.9);
+  background: rgba(30, 144, 255, 0.25);
+}
+
+.best-move-overlay__arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  opacity: 0.85;
+}
